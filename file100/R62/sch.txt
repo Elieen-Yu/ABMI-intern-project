@@ -1,0 +1,79 @@
+#3
+1             starting year
+5058          Last year
+icsite.100    Site file name
+0             Labeling type
+-1            Labeling year
+-1            Microcosm
+-1            CO2 Systems
+-1            pH Shift
+-1            Soil warming
+0             N input scalar option
+0             OMAD input scalar option
+0             Climate scalar option
+1             Initial system
+GRALB         Initial Crop
+BLEAF         Initial Tree
+
+Year Month Option
+1             Block #    grazbison+fire
+4900          Last year
+6             Repeats # years
+4900          Output starting year
+12            Output Month
+12            Output interval
+M             Weather choice
+01  01 CROP GRALB
+01  05 FRST
+01  08 LAST
+01  09 SENM
+01  11 GRAZ BW
+01  12 GRAZ BW
+02  01 CROP GRALB
+02  01 GRAZ BW
+02  02 GRAZ BW
+02  05 FRST
+02  08 LAST
+02  09 SENM
+03  01 CROP GRALB
+03  03 GRAZ BW
+03  04 GRAZ BW
+03  05 FRST
+03  08 LAST
+03  09 SENM
+04  01 CROP GRALB
+04  05 FRST
+04  05 GRAZ B
+04  06 GRAZ B
+04  08 LAST
+04  09 SENM
+05  01 CROP GRALB
+05  05 FRST
+05  07 GRAZ B
+05  08 GRAZ B
+05  08 LAST
+05  09 SENM
+06  01 CROP GRALB
+06  05 FRST
+06  06 FIRE M
+06  08 LAST
+06  09 SENM
+06  09 GRAZ B
+06  10 GRAZ BW
+-999 -999 X
+2             Block #    graz cattle
+5058          Last year
+1             Repeats # years
+4980          Output starting year
+12            Output Month
+12            Output interval
+F             Weather choice
+ic000258.wth
+01  01 CROP GRALB
+01  05 FRST
+01  06 GRAZ GL
+01  07 GRAZ GL
+01  08 GRAZ GL
+01  08 LAST
+01  09 SENM
+-999 -999 X
